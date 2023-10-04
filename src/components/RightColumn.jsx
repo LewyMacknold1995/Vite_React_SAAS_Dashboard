@@ -1,8 +1,13 @@
 import React from 'react'
+import SalesItems from './SalesItems'
+import Webanalytics from './Webanalytics'
 
 const RightColumn = () => {
   return (
-    <div>RightColumn</div>
+    <div className='w-full p-2'>
+        <SalesItems />
+        <Webanalytics />
+    </div>
   )
 }
 
